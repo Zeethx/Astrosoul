@@ -1,0 +1,62 @@
+[
+  {
+    "type": "The Stargazer",
+    "description": "Introspective and imaginative—you find wonder gazing up at the stars.",
+    "keywords": ["Starry","Stargazing","Constellation","Galaxy"],
+    "colors": ["#22303C","#415A77","#778DA9"]
+  },
+  {
+    "type": "The Astro Minimalist",
+    "description": "Clean, calm, and focused—simplicity is your cosmic mantra.",
+    "keywords": ["Minimalist","Silver","Smooth","Midnight Blue"],
+    "colors": ["#1A1A1A","#333333","#4D4D4D"]
+  },
+  {
+    "type": "The Velvet Night",
+    "description": "Warm and comforting—you wrap yourselves in cozy textures and soft hues.",
+    "keywords": ["Cozy","Velvet","Reading","Pastel Pink"],
+    "colors": ["#5D3A9B","#8E44AD","#C39BD3"]
+  },
+  {
+    "type": "The Cosmic Bold",
+    "description": "Fearless and daring—you embrace the thrills of uncharted frontiers.",
+    "keywords": ["Bold","Galaxy","Fire","Comet"],
+    "colors": ["#D35400","#E74C3C","#C0392B"]
+  },
+  {
+    "type": "The Nebula Navigator",
+    "description": "Analytical and curious—you chart paths through swirling cosmic clouds.",
+    "keywords": ["Nebula","Aurora","Constellation","Draco"],
+    "colors": ["#2C3E50","#34495E","#7F8C8D"]
+  },
+  {
+    "type": "The Earth Whisperer",
+    "description": "Grounded and nurturing—you find strength in nature’s textures and elements.",
+    "keywords": ["Earth","Grainy","Night Walks","Air"],
+    "colors": ["#2E8B57","#8FBC8F","#BDB76B"]
+  },
+  {
+    "type": "The Lunar Dreamer",
+    "description": "Enchanting and poetic—you drift on moonlit reveries and soft melodies.",
+    "keywords": ["Moonlit","Dreamer","Music","Pastel Pink"],
+    "colors": ["#9B59B6","#D2B4DE","#E8DAEF"]
+  },
+  {
+    "type": "The Celestial Comet",
+    "description": "Dynamic and kinetic—you blaze through the heavens with unstoppable energy.",
+    "keywords": ["Comet","Planet","Metallic","Bold"],
+    "colors": ["#95A5A6","#7F8C8D","#34495E"]
+  },
+  {
+    "type": "The Twilight Seeker",
+    "description": "Intuitive and reflective—you thrive in the hush between day and night.",
+    "keywords": ["Cloudy","Night Walks","Orion","Reading"],
+    "colors": ["#34495E","#2C3E50","#1F2833"]
+  },
+  {
+    "type": "The Celestial Voyager",
+    "description": "Adaptable and free-spirited—you journey wherever the cosmos guide you.",
+    "keywords": [],
+    "colors": ["#2D0C57","#5C1E7F","#A853B8"]
+  }
+]

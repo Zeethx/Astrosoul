@@ -1,0 +1,92 @@
+[
+  {
+    "question": "1. Pick a sky at night:",
+    "options": [
+      { "label": "Starry",      "image": "/assets/sky-starry.jpg"    },
+      { "label": "Cloudy",      "image": "/assets/sky-cloudy.jpg"    },
+      { "label": "Aurora",      "image": "/assets/sky-aurora.jpg"    },
+      { "label": "Moonlit",     "image": "/assets/sky-moonlit.jpg"   }
+    ]
+  },
+  {
+    "question": "2. Choose a vibe:",
+    "options": [
+      { "label": "Cozy",        "image": "/assets/vibe-cozy.jpg"    },
+      { "label": "Mysterious",  "image": "/assets/vibe-mysterious.jpg" },
+      { "label": "Bold",        "image": "/assets/vibe-bold.jpg"    },
+      { "label": "Minimalist",  "image": "/assets/vibe-minimalist.jpg" }
+    ]
+  },
+  {
+    "question": "3. Pick a color palette:",
+    "options": [
+      { "label": "Dark Purple",    "image": "/assets/color-purple.jpg"   },
+      { "label": "Silver",         "image": "/assets/color-silver.jpg"   },
+      { "label": "Midnight Blue",  "image": "/assets/color-midblue.jpg"  },
+      { "label": "Pastel Pink",    "image": "/assets/color-pink.jpg"     }
+    ]
+  },
+  {
+    "question": "4. Choose a symbol:",
+    "options": [
+      { "label": "Moon",           "image": "/assets/symbol-moon.jpg"        },
+      { "label": "Star",           "image": "/assets/symbol-star.jpg"        },
+      { "label": "Constellation",  "image": "/assets/symbol-constellation.jpg" },
+      { "label": "Galaxy",         "image": "/assets/symbol-galaxy.jpg"      }
+    ]
+  },
+  {
+    "question": "5. Select a texture:",
+    "options": [
+      { "label": "Velvet",      "image": "/assets/texture-velvet.jpg"   },
+      { "label": "Metallic",    "image": "/assets/texture-metallic.jpg" },
+      { "label": "Grainy",      "image": "/assets/texture-grainy.jpg"   },
+      { "label": "Smooth",      "image": "/assets/texture-smooth.jpg"   }
+    ]
+  },
+  {
+    "question": "6. Favorite night activity:",
+    "options": [
+      { "label": "Stargazing",  "image": "/assets/activity-stargazing.jpg" },
+      { "label": "Reading",     "image": "/assets/activity-reading.jpg"    },
+      { "label": "Music",       "image": "/assets/activity-music.jpg"      },
+      { "label": "Night Walks", "image": "/assets/activity-nightwalk.jpg"  }
+    ]
+  },
+  {
+    "question": "7. Pick a direction:",
+    "options": [
+      { "label": "North",   "image": "/assets/direction-north.jpg" },
+      { "label": "East",    "image": "/assets/direction-east.jpg"  },
+      { "label": "South",   "image": "/assets/direction-south.jpg" },
+      { "label": "West",    "image": "/assets/direction-west.jpg"  }
+    ]
+  },
+  {
+    "question": "8. Choose a constellation:",
+    "options": [
+      { "label": "Orion",      "image": "/assets/constellation-orion.jpg"      },
+      { "label": "Cassiopeia", "image": "/assets/constellation-cassiopeia.jpg" },
+      { "label": "Ursa Major", "image": "/assets/constellation-ursa.jpg"      },
+      { "label": "Draco",      "image": "/assets/constellation-draco.jpg"     }
+    ]
+  },
+  {
+    "question": "9. Pick an element:",
+    "options": [
+      { "label": "Air",    "image": "/assets/element-air.jpg"   },
+      { "label": "Water",  "image": "/assets/element-water.jpg" },
+      { "label": "Earth",  "image": "/assets/element-earth.jpg" },
+      { "label": "Fire",   "image": "/assets/element-fire.jpg"  }
+    ]
+  },
+  {
+    "question": "10. Choose a celestial body:",
+    "options": [
+      { "label": "Planet",   "image": "/assets/celestial-planet.jpg"  },
+      { "label": "Asteroid", "image": "/assets/celestial-asteroid.jpg"},
+      { "label": "Comet",    "image": "/assets/celestial-comet.jpg"   },
+      { "label": "Nebula",   "image": "/assets/celestial-nebula.jpg"  }
+    ]
+  }
+]
