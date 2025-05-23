@@ -5,10 +5,6 @@
 
 Astrosoul is a Next.js + Tailwind + MUI web app that guides you through a 10-step cosmic quiz and then generates your personalized “Cosmic Identity” — complete with moon phase, zodiac sign, birth-year movie & song recap, personality archetype, and an aesthetic color moodboard.
 
-<p align="center">
-  <img src="https://via.placeholder.com/800x400?text=Astrosoul+Demo" alt="Astrosoul Demo"/>
-</p>
-
 ## 🚀 Features
 
 - **Interactive Quiz**: 10 illustrated questions to capture your cosmic preferences.
