@@ -31,11 +31,11 @@ export async function GET(req: Request) {
     );
     const tmdbJson = await tmdbRes.json();
     const movies = Array.isArray(tmdbJson.results)
-      ? tmdbJson.results.slice(0, 3).map((m: any) => m.title)
+      ? tmdbJson.results.slice(0, 3).map((m: { title: string }) => m.title)
       : [];
 
     // 2) MusicBrainz – recordings by firstreleasedate AND default/fallback country
-    let mbQuery = `firstreleasedate:${year} AND country:${country}`;
+    const mbQuery = `firstreleasedate:${year} AND country:${country}`;
 
     const mbUrl = new URL("https://musicbrainz.org/ws/2/recording");
     mbUrl.searchParams.set("query", mbQuery);
@@ -50,9 +50,9 @@ export async function GET(req: Request) {
     });
     const mbJson = await mbRes.json();
     const songs = Array.isArray(mbJson.recordings)
-      ? mbJson.recordings.map((r: any) => {
+      ? mbJson.recordings.map((r: { title: string; ["artist-credit"]: { name: string }[] }) => {
           const artist =
-            Array.isArray(r["artist-credit"]) && r["artist-credit"][0].name
+            Array.isArray(r["artist-credit"]) && r["artist-credit"][0]?.name
               ? r["artist-credit"][0].name
               : "Unknown Artist";
           return `${r.title} by ${artist}`;

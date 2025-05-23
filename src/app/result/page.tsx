@@ -13,7 +13,7 @@ interface Recap {
 }
 
 export default function ResultPage() {
-  const { name, date, answers, reset } = useQuiz();
+  const { name, date, answers } = useQuiz();
   const [moon, setMoon] = useState<MoonLocalData | null>(null);
   const [recap, setRecap] = useState<Recap | null>(null);
   const [loadingRecap, setLoadingRecap] = useState(false);
