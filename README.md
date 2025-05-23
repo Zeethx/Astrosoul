@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+![Astrosoul Landing Page](https://github.com/Zeethx/Astrosoul/blob/master/public/astrosoul.png)
 
-## Getting Started
 
-First, run the development server:
+**Discover your moon-powered aesthetic identity.**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Astrosoul is a Next.js + Tailwind + MUI web app that guides you through a 10-step cosmic quiz and then generates your personalized “Cosmic Identity” — complete with moon phase, zodiac sign, birth-year movie & song recap, personality archetype, and an aesthetic color moodboard.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p align="center">
+  <img src="https://via.placeholder.com/800x400?text=Astrosoul+Demo" alt="Astrosoul Demo"/>
+</p>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Interactive Quiz**: 10 illustrated questions to capture your cosmic preferences.
+- **Moon & Zodiac**: Calculates your moon phase and zodiac sign on your birthdate via SunCalc.
+- **Year-Recap**: Fetches top 3 movies from TMDB and top 3 songs from MusicBrainz for your birth year.
+- **Personality Archetype**: Randomized (or deterministic) assignment from 10 unique cosmic personalities.
+- **Aesthetic Moodboard**: A custom 3-color palette to match your archetype.
+- **Compact vs Expanded Views**: Toggle between a full-page layout and a shareable compact card.
+- **Responsive Design**: Adapts gracefully from mobile to desktop.
+- **Dark Gradient**: Sleek dark-mode gradient background throughout.
+- **Material UI**: Polished inputs, date picker, progress bar, and navbar.
+- **React Context**: Quiz state kept in Context for clean routing (`/quiz` → `/result`).
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js 13** (App Router, TypeScript)
+- **React** & **React Context**
+- **Tailwind CSS v4**
+- **Material-UI (MUI)** + **MUI X Date Pickers** + **Day.js**
+- **SunCalc** for moon phase calculations
+- **TMDB API v4** for movies
+- **MusicBrainz API** for birth-year songs
+- **html-to-image** (or similar) for compact card export (optional)
+- **Vercel** or any Node.js host for deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📦 Getting Started
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Prerequisites
 
-## Deploy on Vercel
+- [Node.js ≥ 18.x](https://nodejs.org/)
+- A **TMDB v4 Read Access Token** (starts with `eyJ…`)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Installation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the repo**  
+   ```bash
+   git clone https://github.com/your-username/astrosoul.git
+   cd astrosoul
